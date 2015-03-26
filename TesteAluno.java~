@@ -1,0 +1,14 @@
+class TesteAluno{
+
+public static void main(String[] args){
+ Aluno a = new Aluno();
+ a.nome = "Godofredo";
+ a.RG = "66.666.666-6";
+ a.dataNascimento = "13-11-1992";
+ System.out.println(a.nome);
+ System.out.println(a.RG);
+ System.out.println(a.dataNascimento);
+ Aluno b = new Aluno();
+ 
+}
+}
